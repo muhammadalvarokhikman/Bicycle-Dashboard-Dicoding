@@ -10,7 +10,7 @@ st.set_page_config(page_title="Bicycle Rental", page_icon=":bar_chart:", layout=
 st.title(":bar_chart: Sample Bicycle Rental EDA")
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
 
-url = "https://raw.githubusercontent.com/dashboard/dashboard/main_data.csv"
+url = "https://github.com/muhammadalvarokhikman/dashboard/blob/main/dashboard/main_data.csv"
 df = pd.read_csv(url, encoding="ISO-8859-1")
 
 df["dteday"] = pd.to_datetime(df["dteday"])
